@@ -1,16 +1,10 @@
 # Report Scheduler
 
 ## About
-
----
-
 Report Scheduler creates PDF from React templates.
 
 
 ## Getting Started
-
----
-
 1. Clone this repository.
 2. Run `yarn` to fetch fresh packages.
 3. Run `yarn dev` to start the Report Scheduler in development environment.
@@ -19,9 +13,6 @@ Report Scheduler creates PDF from React templates.
 Other running scripts can be observed in `package.json` i.e. `yarn test` for testing.
 
 ## Usage
-
----
-
 Report Scheduler relies internally on [Gotenberg](https://github.com/gotenberg/gotenberg) to generate the actual reports.
 
 > The Gotenberg version used currently is v6. v7 has a slightly different endpoint API. This constant, GOTENBERG_URL, is in `.env.development`.
@@ -45,9 +36,6 @@ Ensure your `localhost:3000` is live. The following endpoints are available.
 > In production, both the `gotenberg` and `report-scheduler` service can be found in the `common-svcs` namespace.
 
 ## Architecture
-
----
-
 The report-scheduler service runs on Next.js. This is ideal as we like users working on the service to be able to:
 
 1. Build or edit reports visually.
@@ -58,9 +46,6 @@ Because Next.js uses server side rendering, we are able to build reports using t
 ![Architecture](/architecture.png)
 
 ## Structure
-
----
-
 `/charts`
 
 Contains landscape and horizontal bar charts for reports.
@@ -110,9 +95,6 @@ Compile time and run time types used to validate props and data.
 Utility functions.
 
 ## Troubleshooting
-
----
-
 This section discuss common errors faced when accessing the service's endpoints.
 
 ```
