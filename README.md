@@ -6,7 +6,6 @@
 
 Report Scheduler creates PDF from React templates.
 
-> Report Scheduler is a bit of a misnomer. It does not actually "schedule" reports but instead just builds them.
 
 ## Getting Started
 
