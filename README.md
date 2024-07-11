@@ -1,8 +1,13 @@
 # Report Scheduler
 
+## Update July 11 2024
+Some notes as we revist a similar issue in another company.
+- We ended up on this solution previously because we couldn't get recharts to look correct.
+- We used https://github.com/yumauri/gotenberg-js-client on Next.JS since it renders server side.
+- Finally, the easier solution is hosting server-side with https://react-pdf.org/ (no idea on library compatability).
+
 ## About
 Report Scheduler creates PDF from React templates.
-
 
 ## Getting Started
 1. Clone this repository.
